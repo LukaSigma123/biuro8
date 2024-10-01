@@ -51,9 +51,9 @@
         <h3>W poprzednich latach bylismy...</h3>
 
         <ol>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+            <?php foreach($wycieczki as $wycieczka): ?>
+                <li>Dnia <?= $wycieczka['dataWyjazdu'] ?> pojechaliśmy do <?= $wycieczka['cel'] ?></li>
+            <?php endforeach ?>
         </ol>
     </div>
 
