@@ -47,6 +47,12 @@
 
     <div id="blokzdanymi">
         <h3>W poprzednich latach bylismy...</h3>
+
+        <ol>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ol>
     </div>
 
     <footer>
