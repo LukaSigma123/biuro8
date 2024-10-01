@@ -35,7 +35,9 @@
 
     <div id="srodkowy">
         <h2>W tym roku jedziemy do...</h2>
-        
+            <?php foreach($obrazy as $obraz): ?>
+                <img src="<?= $obraz['nazwaPliku'] ?>" alt="<?= $obraz['podpis'] ?>" title="<?= $obraz['podpis'] ?>" />
+            <?php endforeach; ?>
     </div>
 
 
